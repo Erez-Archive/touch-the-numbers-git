@@ -1,5 +1,8 @@
+:root {
+  --theme-color: gold; }
+
 body {
-  background-color: gray; }
+  background-color: var(--theme-color); }
 
 td {
   padding: 10px;

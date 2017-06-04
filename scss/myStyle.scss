@@ -1,13 +1,6 @@
-body {
-    background-color: gray;
-}
+@import 'vars';
+@import 'base';
 
-td {
-    padding: 10px;
-    border:1px solid black;
-}
 
-.clicked {
-    background-color: gold;   
-}
 
+// components
