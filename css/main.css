@@ -1,5 +1,8 @@
+:root {
+  --theme-color: pink; }
+
 body {
-  background-color: lightblue; }
+  background-color: var(--theme-color); }
 
 td {
   padding: 10px;
