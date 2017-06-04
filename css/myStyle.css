@@ -10,3 +10,27 @@ td {
 
 .clicked {
   background-color: gold; }
+
+.blink {
+  animation: blink 2s infinite; }
+
+.run-for-your-life {
+  animation: run-for-your-life 3s; }
+
+@keyframes blink {
+  0% {
+    color: white; }
+  50% {
+    color: inherit; }
+  100% {
+    color: white; } }
+
+@keyframes run-for-your-life {
+  25% {
+    transform: translate(50vw); }
+  50% {
+    transform: translate(50vw, 50vh); }
+  75% {
+    transform: translate(-50vw, 50vh); }
+  100% {
+    transform: translate(0, 0); } }
