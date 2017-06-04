@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm-run-all --parallel browser styles",
     "browser": "live-server",
-    "styles": "node-sass scss/myStyle.scss -o css --watch"
+    "styles": "node-sass scss/main.scss -o css --watch"
   },
   "author": "",
   "license": "ISC",
